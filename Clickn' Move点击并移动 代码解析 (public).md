@@ -16,7 +16,7 @@ PointAndClick.attributes.add('playerSpeed', {type: 'number', default: 0, title: 
 this.groundShape = new pc.BoundingBox(new pc.Vec3(0, 0, 0), new pc.Vec3(4, 0.001, 4));
 ```
 
-使用`boundingbox` API*生成碰撞箱*。第一个参数是center，表示碰撞箱的中心点第二个参数是halfExtents，表示在各个轴上的半径。
+使用`boundingbox` API*生成包围箱*。第一个参数是center，表示碰撞箱的中心点第二个参数是halfExtents，表示在各个轴上的半径。
 
 ```javascript
 this.direction = new pc.Vec3();
